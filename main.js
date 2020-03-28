@@ -16,27 +16,6 @@ vuejs: "Vue.js é um framework JavaScript de código-aberto, focado no desenvolv
 
 const change = () => pEl.innerHTML = cursos[choose.value];
 
-// function change(){
-//   var p = $("p");
-//   p.innerHTML = cursos[choose.value];
-
-  /*if (choose.value == "php"){
-  	p.innerHTML = "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor";
-  } else if (choose.value == "javascript"){
-		p.innerHTML = "JavaScript é uma linguagem de programação interpretada estruturada, de script em lto nível.";
-	} else if (choose.value == "css"){
-  p.innerHTML = "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.";
-  } else if (choose.value == "html5"){
-  p.innerHTML = "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet.";
-  } else if (choose.value == "react"){
-	p.innerHTML = "O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.";
-	} else if (choose.value == "vuejs"){
-  p.innerHTML = "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.";
-  } else {
-  p.innerHTML = "";
-  }*/
-
-// }
 
 
 
