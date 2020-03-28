@@ -11,17 +11,17 @@
         <option value="react">React</option>
         <option value="vuejs">VueJs</option>
 </select>
-        
 <p></p>
 ```
 
 ### Esse é o código anterior usando IFS e ELSE IFS
-```javascript
-var $ = document.querySelector.bind(document);
-var $$ = document.querySelectorAll.bind(document);
-var choose = $("#choose");
 
-var cursos = {
+```javascript
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+const choose = $("#choose");
+
+const cursos = {
 
 php: "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor",
 javascript: "JavaScript é uma linguagem de programação interpretada estruturada, de script em lto nível.",
@@ -58,11 +58,11 @@ function change(){
 Criei um objeto chamado **cursos** e nomeei cada uma das propriedades com o mesmo nome de cada **values**, dos **options**, respectivamente.
 
 ```javascript
-var $ = document.querySelector.bind(document);
-var $$ = document.querySelectorAll.bind(document);
-var choose = $("#choose");
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+const choose = $("#choose");
 
-var cursos = {
+const cursos = {
 
 php: "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor",
 javascript: "JavaScript é uma linguagem de programação interpretada estruturada, de script em lto nível.",
@@ -75,8 +75,5 @@ vuejs: "Vue.js é um framework JavaScript de código-aberto, focado no desenvolv
 ```
 
 ```javascript
-function change(){
-  var p = $("p");
-  p.innerHTML = cursos[choose.value];
-}
+const change = () => pEl.innerHTML = cursos[choose.value];
 ```

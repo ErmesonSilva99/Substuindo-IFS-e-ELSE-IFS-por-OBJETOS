@@ -1,8 +1,9 @@
-var $ = document.querySelector.bind(document);
-var $$ = document.querySelectorAll.bind(document);
-var choose = $("#choose");
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+const choose = $("#choose");
+const pEl = $("p");
 
-var cursos = {
+const cursos = {
 
 php: "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor",
 javascript: "JavaScript é uma linguagem de programação interpretada estruturada, de script em lto nível.",
@@ -13,9 +14,11 @@ vuejs: "Vue.js é um framework JavaScript de código-aberto, focado no desenvolv
 
 };
 
-function change(){
-  var p = $("p");
-  p.innerHTML = cursos[choose.value];
+const change = () => pEl.innerHTML = cursos[choose.value];
+
+// function change(){
+//   var p = $("p");
+//   p.innerHTML = cursos[choose.value];
 
   /*if (choose.value == "php"){
   	p.innerHTML = "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor";
@@ -33,7 +36,7 @@ function change(){
   p.innerHTML = "";
   }*/
 
-}
+// }
 
 
 
